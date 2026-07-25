@@ -1,4 +1,4 @@
-# Spotify Analytics — End-to-End Azure Data Engineering Pipeline
+# Spotify End-to-End Azure Data Engineering Pipeline
 
 **A metadata-driven, CDC-based Medallion architecture pipeline that ingests a Spotify-style streaming warehouse from Azure SQL, processes it through Bronze → Silver → Gold using Databricks Autoloader and Delta Live Tables, and models it as a Star Schema in Unity Catalog — with SCD Type 2 history, Git-based CI/CD, and automated failure alerting.**
 
